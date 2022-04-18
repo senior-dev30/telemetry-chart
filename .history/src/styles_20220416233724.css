@@ -1,0 +1,40 @@
+.App {
+  background-color: #ffffff;
+  border: 1px solid white;
+}
+
+.axisX text {
+  text-anchor: start;
+}
+
+.baseGridLine line {
+  stroke: rgba(255, 255, 255, 0.5);
+}
+
+.tooltip text {
+  font-size: 12px;
+  fill: #ffffff;
+}
+
+.tooltipLine {
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+
+.tooltipContent .contentTitle {
+  font-weight: bold;
+}
+
+/* .tooltipLinePoint {
+  fill: #000000;
+} */
+
+.legendContainer {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.checkbox {
+  margin: 10px;
+}
